@@ -19,7 +19,7 @@ Four files, one question. Each product answers it at a different layer.
 | 03 · audit | [**Sentinel**](https://utalabs.tech/sentinel/) | 10 static layers + a real L2 sandbox: every MCP server executed under gVisor, syscalls watched for 30 s. | 1,211,488 checks · 1,030 threats caught |
 | 04 · enforcement | [**Interceptor**](https://utalabs.tech/interceptor/) | MCP runtime policy engine. Blocks `.env` reads and `rm -rf` even when the caller's card is valid. | 5 live rules · signed JSONL audit trail |
 | annex A · provider side | [**UTA-Shield**](https://wall.utalabs.tech) — firewall for MCP operators | Wraps your MCP server once: identity gates, threat-intel blocking (23 live IOCs from a real takedown), rate limits, DLP, x402 metering. 19.8 kB, zero dependencies. | [repo](https://github.com/eddyflores100-lang/uta-shield) |
-| annex B · registry | [**MarketNow**](https://marketnow.site) | Trust registry & marketplace: skills, credentials and domains verified across 68,388 MCP servers indexed. | free MCP API, 9 tools, no signup |
+| annex B · registry | [**MarketNow**](https://marketnow.site) | Security infrastructure for AI agents: skills, credentials and domains verified across 71,198 MCP servers indexed. | free MCP API, 10 tools, no signup · [repo](https://github.com/eddyflores100-lang/marketnow) · [status](https://status.marketnow.site) |
 
 Fail-closed is the house rule: unreachable revocation check → DENY. Downtime degrades to "no", never to "probably fine".
 
@@ -36,7 +36,7 @@ Fail-closed is the house rule: unreachable revocation check → DENY. Downtime d
 
 [**marketnow.site**](https://marketnow.site) · [status](https://status.marketnow.site) · [repo](https://github.com/eddyflores100-lang/marketnow)
 
-Where the stack meets the world: a hosted registry that verifies skills, credentials and domains across **68,388 MCP servers indexed** (132,737 tracked), with a **free MCP API** — 9 tools, no keys, no signup — plus signed submissions, revocation checks and a Sentinel score on every entry.
+Where the stack meets the world: security infrastructure for AI agents — skills, credentials and domains verified across **71,198 MCP servers indexed** (135,547 tracked), with a **free MCP API** — 10 tools, no keys, no signup — plus signed submissions, revocation checks and a Sentinel score on every entry.
 
 - Free API: [marketnow.site/api/mcp](https://marketnow.site/api/mcp)
 - Live status: [status.marketnow.site](https://status.marketnow.site)
