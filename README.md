@@ -14,8 +14,8 @@ Four files, one question. Each product answers it at a different layer.
 
 | Layer | Product | What it is | Proof |
 |---|---|---|---|
-| 01 · translation | [**UTA**](https://utalabs.tech/uta/) — universal trust adapter | 8 credential formats in (JWT, W3C VC, A2A, X.509, ATC…), one canonical schema out. 12-stage verification pipeline. | [x402 API](https://uta-trust-api.eddyflores100.workers.dev) — $0.01/verify, fail-closed |
-| 02 · identity | [**ATC**](https://utalabs.tech/atc/) — agent trust card | Ed25519-signed capability card (ATC/1.0, RFC v3.0): who the agent is, what it may touch, who answers for it. | 57 cards live · MNR-CRL-1.0 revocation |
+| 01 · translation | [**UTA**](https://utalabs.tech/uta/) — universal trust adapter | 8 credential formats in (JWT, W3C VC, A2A, X.509, ATC…), one canonical schema out. 12-stage verification pipeline. | [x402 API](https://uta-trust-api.eddyflores100.workers.dev) — $0.01/verify, fail-closed · [spec + repo](https://github.com/alicelabs-llc/universal-trust-adapter) |
+| 02 · identity | [**ATC**](https://utalabs.tech/atc/) — agent trust card | Ed25519-signed capability card (ATC/1.0, RFC v3.0): who the agent is, what it may touch, who answers for it. | 57 cards live · MNR-CRL-1.0 revocation · [spec + repo](https://github.com/alicelabs-llc/universal-trust-adapter) |
 | 03 · audit | [**Sentinel**](https://utalabs.tech/sentinel/) | 10 static layers + a real L2 sandbox: every MCP server executed under gVisor, syscalls watched for 30 s. | 1,211,488 checks · 1,030 threats caught |
 | 04 · enforcement | [**Interceptor**](https://utalabs.tech/interceptor/) | MCP runtime policy engine. Blocks `.env` reads and `rm -rf` even when the caller's card is valid. | 5 live rules · signed JSONL audit trail |
 | annex A · provider side | [**UTA-Shield**](https://wall.utalabs.tech) — firewall for MCP operators | Wraps your MCP server once: identity gates, threat-intel blocking (23 live IOCs from a real takedown), rate limits, DLP, x402 metering. 19.8 kB, zero dependencies. | [repo](https://github.com/eddyflores100-lang/uta-shield) |
@@ -31,6 +31,16 @@ Fail-closed is the house rule: unreachable revocation check → DENY. Downtime d
 
 - Read tonight's receipt: [receipt/latest.json](https://sloth.utalabs.tech/receipt/latest.json)
 - Verify the chain yourself: [sloth.utalabs.tech/verify](https://sloth.utalabs.tech/verify)
+
+## MarketNow — the trust registry
+
+[**marketnow.site**](https://marketnow.site) · [status](https://status.marketnow.site) · [repo](https://github.com/eddyflores100-lang/marketnow)
+
+Where the stack meets the world: a hosted registry that verifies skills, credentials and domains across **68,388 MCP servers indexed** (132,737 tracked), with a **free MCP API** — 9 tools, no keys, no signup — plus signed submissions, revocation checks and a Sentinel score on every entry.
+
+- Free API: [marketnow.site/api/mcp](https://marketnow.site/api/mcp)
+- Live status: [status.marketnow.site](https://status.marketnow.site)
+- Agent surface: [uta-ai](https://github.com/alicelabs-llc/uta-ai) — installable skills, subagents, MCP servers, Claude Code plugin
 
 ## BernAudio Model 80
 
