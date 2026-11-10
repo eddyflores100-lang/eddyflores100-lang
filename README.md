@@ -72,6 +72,7 @@ Real-time professional audio measurement in the browser — RTA, spectrogram, tr
 - **[XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/eddyflores100-lang)** — [universal-trust-adapter](https://github.com/alicelabs-llc/universal-trust-adapter) selected and indexed by the XERJ Corpus Hub (Oct 2026).
 - **MarketNow on [mcptry](https://mcptry.com/servers/io.github.alicelabs-llc/marketnow)** — #454 of 4,704 in AI & Agents, score 86/100 (Nov 2026). Also listed on [mcp.so](https://mcp.so/servers/marketnow) and [mcpservers.org](https://mcpservers.org/servers/alicelabs-llc/marketnow).
 - **[Flisk Hall of Fame](https://github.com/flisk-sh/flisk/pull/951)** — first merged contribution ([PR #951](https://github.com/flisk-sh/flisk/pull/951), closes #905): refactored the `project.json` file name into a `PROJECT_JSON` constant; 7 kyu rank in Flisk CLI Cove (Oct 2026).
+- **Flisk Founding Contributor #8 of 100** — numbered badge reserved for the first 100 code contributors to [flisk-sh/flisk](https://github.com/flisk-sh/flisk); unlocked via the Flisk Discord (@arxh80), Nov 2026.
 
 ## Writing
 
