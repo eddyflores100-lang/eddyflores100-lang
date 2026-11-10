@@ -6,6 +6,8 @@ I build the full stack that answers one question: *should this agent be allowed 
 
 **Live:** [utalabs.tech](https://utalabs.tech) · [alicelabs.site](https://alicelabs.site) · [marketnow.site](https://marketnow.site)
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/eddyflores100-lang/badge.svg)](https://hub.xerj.org/contributors/eddyflores100-lang) [![Hacktoberfest 2026 Completionist](https://img.shields.io/badge/Hacktoberfest_2026-Completionist-181717?logo=hacktoberfest&logoColor=white)](https://dev.to/edison_flores_6d2cd381b13) [![MarketNow on mcptry](https://img.shields.io/badge/MarketNow%C2%B7mcptry-86%2F100_%C2%B7_%23454%2F4704-24292f)](https://mcptry.com/servers/io.github.alicelabs-llc/marketnow)
+
 ---
 
 ## The utalabs.tech stack
@@ -63,6 +65,12 @@ Real-time professional audio measurement in the browser — RTA, spectrogram, tr
 - **[cognicore-dev/cognicore-env](https://github.com/cognicore-dev/cognicore-env)** — open PRs: lexical-search score bounds in the SQLite memory backend, verifier-defeat chain topology tests.
 - **[x402-foundation/x402](https://github.com/x402-foundation/x402/issues/3803)** — spec work on the PAYMENT-REQUIRED schema: falsy-value rule re-scoped to examples with named-path failure reasons and `unavailable` as a third verdict in the redraft.
 - **[taikotalent-phishing-iocs](https://github.com/eddyflores100-lang/taikotalent-phishing-iocs)** — published IoCs and attack-chain writeup for a live fake-recruiter campaign ([dev.to writeup](https://dev.to/edison_flores_6d2cd381b13/a-fake-recruiter-sent-me-a-job-offer-that-ended-in-my-terminal-the-trojan-is-still-live-2okf)).
+
+## Recognition
+
+- **Hacktoberfest 2026 Completionist badge** — awarded by DEV Community (Nov 2026), "one of Hacktoberfest 2026's top participants". Profile: [dev.to/edison_flores_6d2cd381b13](https://dev.to/edison_flores_6d2cd381b13).
+- **[XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/eddyflores100-lang)** — [universal-trust-adapter](https://github.com/alicelabs-llc/universal-trust-adapter) selected and indexed by the XERJ Corpus Hub (Oct 2026).
+- **MarketNow on [mcptry](https://mcptry.com/servers/io.github.alicelabs-llc/marketnow)** — #454 of 4,704 in AI & Agents, score 86/100 (Nov 2026). Also listed on [mcp.so](https://mcp.so/servers/marketnow) and [mcpservers.org](https://mcpservers.org/servers/alicelabs-llc/marketnow).
 
 ## Writing
 
